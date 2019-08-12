@@ -97,10 +97,10 @@ VPP can sustain a rate of up to 12 millions packets per second (Mpps) with gener
 **Advantages of vpp comparing with other KB solutions**
 *Table 1: State of the art in KBnet frameworks*
 | Framework [Ref.] | LFMT | IOB | RSS | Z-C | CB | CC&L | LLP | Main Purpose |
-| --- | --- | --- | - | - | - | - | - | - |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | DPDK | ✔ | ✔ | ✔ | ✔ |  |  |  | Low-level IO |
 | netmap| ✔ | ✔ | ✔ | ✔ |  |  |  | Low-level IO |
-| |  |  |  | |  | |  |  |
+|  |  |  |  | |  | |  |  |
 | PacketShader| ✔ | ✔ | ✔ |  |  |  |  | Routing  |
 | MTclass| ✔ | ✔ | ✔ |  |  |  |  | Classiﬁcation  |
 | Augustus| ✔ | ✔ | ✔ | ✔ |  |  |  | Name-based fwd  |
